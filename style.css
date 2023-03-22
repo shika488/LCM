@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+body {
+    font-family: 'Zen Kurenaido', sans-serif;
+    background: url(./img/bg.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    text-align: center;
+    color: #ff00dd;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+h4 {
+    margin: 0;
+}
+
+.exp {
+    font-size: 12px;
+}
+
+.info {
+    font-size: 20px;
+    margin-top: 50px;
+}
+.container {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: auto;
+}
+
+.input {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid aqua;
+    font-size: 18px;
+}
+
+#btn {
+    height: 25px;
+    border: 1px solid #cf72ff;
+    border-radius: 5px;
+    background: #cf72ff;
+    box-shadow: 0 1px #563268;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.output {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.output p {
+    width: 150px;
+    font-size: 25px;
+}
+
+#result {
+    width: 100px;
+    height: 40px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    background: whitesmoke;
+    font-size: 25px;
+    margin-left: 30px;
+}
